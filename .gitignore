@@ -1,0 +1,45 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+brasileiranas/dist
+brasileiranas/tmp
+brasileiranas/out-tsc
+# Only exists if Bazel was run
+brasileiranas/bazel-out
+
+# dependencies
+brasileiranas/node_modules
+
+# profiling files
+chrome-profiler-events*.json
+
+# IDEs and editors
+brasileiranas/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+brasileiranas/.sass-cache
+brasileiranas/connect.lock
+brasileiranas/coverage
+brasileiranas/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+brasileiranas/typings
+
+# System Files
+.DS_Store
+Thumbs.db
